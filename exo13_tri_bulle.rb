@@ -14,7 +14,7 @@ def tri_a_bulle(a ,b , c)
 	end 
 
 
-	for i in -1..b-1
+	for i in 0..b
 		for j in 0..b-2
 			if c[j+1].to_i < c[j].to_i
 				tps = c[j+1]

@@ -2,8 +2,14 @@
 
 
 a = ARGV
-b = a.reverse
+#b = a.reverse
 
-for i in b 
-  puts i 
+#for i in b 
+#  puts i 
+#end 
+
+b = a.length
+
+for i in 1..b
+  puts a[b-i]
 end 
