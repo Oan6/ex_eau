@@ -16,3 +16,4 @@ for i in 0..b-2
 		exit
 	end 
 end 
+puts "-1"

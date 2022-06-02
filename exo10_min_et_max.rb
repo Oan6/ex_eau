@@ -1,4 +1,5 @@
-#Créez un programme qui affiche toutes les valeurs comprises entre deux nombres dans l’ordre croissant. Min inclus, max exclus.
+#Créez un programme qui affiche toutes les valeurs comprises entre deux nombres dans l’ordre croissant.
+# Min inclus, max exclus.
 
 
 a = ARGV[0]
@@ -14,3 +15,4 @@ end
 for i in a...b 
 	print i + " "
 end 
+#faut que se soit 0 0 ou 00 00 , 0 00 ne marche pas 
